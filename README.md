@@ -39,6 +39,7 @@ Only skeleton and muscle models were used. Parts of Z-Anatomy under non-commerci
 - Reduced polygon count (decimation) for mobile devices.
 - Re-classified each attachment area as origin or insertion according to the bone it lies on.
 - Generated the insertion area of latissimus dorsi on the humerus from the contact surface between the muscle and the bone (not present in the source).
+- Removed parts of attachment areas farther than 10 mm from any bone (e.g. the strip along the linea alba), keeping only bony attachments.
 - Offset attachment areas 1.5 mm from the bone surface and assigned simple colors.
 
 ## 日本語の概要
